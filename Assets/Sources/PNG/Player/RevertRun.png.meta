@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: de4315bd6a7063e4e8012f18d882f9c5
+guid: 14ce3314a4a76124480b77ad3626cbcd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fall-Down-2frm_0
+      name: RevertRun_0
       rect:
         serializedVersion: 2
-        x: 99
+        x: 109
         y: 62
-        width: 42
-        height: 54
+        width: 47
+        height: 55
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ff0e21ec61933344803f0c4c65cdcce
-      internalID: -353822196
+      spriteID: 1a2da2b9b81b17544a3dc45c6a4697a8
+      internalID: -1968105116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fall-Down-2frm_1
+      name: RevertRun_1
       rect:
         serializedVersion: 2
-        x: 343
-        y: 62
-        width: 42
-        height: 54
+        x: 353
+        y: 64
+        width: 47
+        height: 55
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +140,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3803eff9a016b7342922a0ef2a5eb43e
-      internalID: -371418179
+      spriteID: 78bd42bd652a3ef4880b40ba73a0f212
+      internalID: 1439278490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevertRun_2
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 67
+        width: 47
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db1a7ffcfa4fc343b37ac1d1d410511
+      internalID: -1365641922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevertRun_3
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 62
+        width: 47
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826de71e60156c548af16d0d69f39c9c
+      internalID: -889805808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevertRun_4
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 64
+        width: 47
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82567fecda1b28438b7819dbf02e029
+      internalID: 438566806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevertRun_5
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 66
+        width: 47
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05fe627ceb48ad40b74e7fb645c7404
+      internalID: -888729860
       vertices: []
       indices: 
       edges: []
@@ -157,8 +241,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Fall-Down-2frm_0: -353822196
-      Fall-Down-2frm_1: -371418179
+      RevertRun_0: -1968105116
+      RevertRun_1: 1439278490
+      RevertRun_2: -1365641922
+      RevertRun_3: -889805808
+      RevertRun_4: 438566806
+      RevertRun_5: -888729860
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
