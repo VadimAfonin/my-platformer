@@ -19,7 +19,7 @@ public class PlayerInput : MonoBehaviour
 
         playerMovement.Move(horizontalDirection, isSpacePressed);
 
-        if (Input.GetButtonDown(GlobalStringVars.FIRE_1))
+        if (!PauseController._isPaused && Input.GetButtonDown(GlobalStringVars.FIRE_1) )
         {
            anim.SetTrigger("Shoot");
         }

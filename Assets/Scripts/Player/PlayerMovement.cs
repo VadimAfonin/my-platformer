@@ -51,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
     {
         rb.velocity = new Vector2(direction * _playerSpeed, rb.velocity.y);
         _anim.SetFloat("Velocity", direction * _playerSpeed);
-    }
+    }    
 
     private void FixedUpdate()
     {
