@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TipsTrigger : MonoBehaviour
+public class CartTrigger : MonoBehaviour
 {
     [SerializeField] private GameObject _tipText;
     [SerializeField] private Rigidbody2D _body;
@@ -26,6 +26,7 @@ public class TipsTrigger : MonoBehaviour
         {
             _body.AddForce(Vector2.right * 3, ForceMode2D.Impulse);
             _tipText.SetActive(false);
+            Destroy(_body.gameObject, 4);
         }
     }
 }
