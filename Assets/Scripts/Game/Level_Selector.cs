@@ -21,6 +21,7 @@ public class Level_Selector : MonoBehaviour
 
     void OnLevelButtonClick()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene(_buildIndex);
     }
 

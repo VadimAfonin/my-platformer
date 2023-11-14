@@ -566,6 +566,7 @@ GameObject:
   - component: {fileID: 192450452}
   - component: {fileID: 192450451}
   - component: {fileID: 192450450}
+  - component: {fileID: 192450453}
   m_Layer: 5
   m_Name: HomeButton
   m_TagString: Untagged
@@ -637,10 +638,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2045330245}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 192450453}
+        m_TargetAssemblyTypeName: ButtonController, Assembly-CSharp
+        m_MethodName: onHomeButtonClick
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -648,18 +649,6 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 546042981}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &192450451
 MonoBehaviour:
@@ -699,6 +688,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 192450448}
   m_CullTransparentMesh: 1
+--- !u!114 &192450453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192450448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddb264fee9dceee4cb92901f7664ccac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isMutedSprite: {fileID: 21300000, guid: 1bfd221978e997a4e96f21d34c6c3db6, type: 3}
+  _nonMutedSprite: {fileID: 21300000, guid: 89a9f43c3bbc99540b1c2a47bb4ed25b, type: 3}
 --- !u!1 &217057698
 GameObject:
   m_ObjectHideFlags: 0
@@ -784,8 +787,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 217057703}
-        m_TargetAssemblyTypeName: muteController, Assembly-CSharp
-        m_MethodName: OnMuteButtonClick
+        m_TargetAssemblyTypeName: ButtonController, Assembly-CSharp
+        m_MethodName: omMuteButtonClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -842,10 +845,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 217057698}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 349aba03bdf80bf45b3b709934f249d3, type: 3}
+  m_Script: {fileID: 11500000, guid: ddb264fee9dceee4cb92901f7664ccac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _cam: {fileID: 519420031}
   _isMutedSprite: {fileID: 21300000, guid: 1bfd221978e997a4e96f21d34c6c3db6, type: 3}
   _nonMutedSprite: {fileID: 21300000, guid: 89a9f43c3bbc99540b1c2a47bb4ed25b, type: 3}
 --- !u!1 &241419357
@@ -3881,6 +3883,7 @@ GameObject:
   - component: {fileID: 1886278458}
   - component: {fileID: 1886278457}
   - component: {fileID: 1886278456}
+  - component: {fileID: 1886278459}
   m_Layer: 5
   m_Name: HomeButton
   m_TagString: Untagged
@@ -3952,10 +3955,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1963493319}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1886278459}
+        m_TargetAssemblyTypeName: ButtonController, Assembly-CSharp
+        m_MethodName: onHomeButtonClick
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3963,18 +3966,6 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 546042981}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1886278457
 MonoBehaviour:
@@ -4014,6 +4005,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1886278454}
   m_CullTransparentMesh: 1
+--- !u!114 &1886278459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886278454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddb264fee9dceee4cb92901f7664ccac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isMutedSprite: {fileID: 21300000, guid: 1bfd221978e997a4e96f21d34c6c3db6, type: 3}
+  _nonMutedSprite: {fileID: 21300000, guid: 89a9f43c3bbc99540b1c2a47bb4ed25b, type: 3}
 --- !u!1 &1945838132
 GameObject:
   m_ObjectHideFlags: 0
@@ -4180,6 +4185,7 @@ GameObject:
   - component: {fileID: 2004716983}
   - component: {fileID: 2004716982}
   - component: {fileID: 2004716981}
+  - component: {fileID: 2004716984}
   m_Layer: 5
   m_Name: HomeButton
   m_TagString: Untagged
@@ -4251,10 +4257,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 989914787}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 2004716984}
+        m_TargetAssemblyTypeName: ButtonController, Assembly-CSharp
+        m_MethodName: onHomeButtonClick
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4262,18 +4268,6 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 546042981}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &2004716982
 MonoBehaviour:
@@ -4313,6 +4307,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2004716979}
   m_CullTransparentMesh: 1
+--- !u!114 &2004716984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2004716979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddb264fee9dceee4cb92901f7664ccac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isMutedSprite: {fileID: 21300000, guid: 1bfd221978e997a4e96f21d34c6c3db6, type: 3}
+  _nonMutedSprite: {fileID: 21300000, guid: 89a9f43c3bbc99540b1c2a47bb4ed25b, type: 3}
 --- !u!1 &2045330245
 GameObject:
   m_ObjectHideFlags: 0
