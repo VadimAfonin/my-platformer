@@ -16,14 +16,14 @@ public class StarsScaleController : MonoBehaviour
         _coins = FindObjectsOfType<CollectCoin>();
         coinsQuantity = _coins.Length;
         _scale.fillAmount = 0;
-    }
+    }      
 
     void Update()
     {
         if (Statistics._coinsCollected != 0)
         {
             _scale.fillAmount = (float)Statistics._coinsCollected / coinsQuantity;
-            percent = _scale.fillAmount;
+            Statistics._levelPercent = _scale.fillAmount * 100;
         }
     }
 }

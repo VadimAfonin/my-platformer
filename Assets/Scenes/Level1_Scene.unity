@@ -22869,6 +22869,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _gameCanvas: {fileID: 170193867}
   _ui_popup: {fileID: 1374075157}
+  _img: {fileID: 0}
+  _starsPicController: {fileID: 6397020034966430047}
 --- !u!61 &1535602539
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31300,6 +31302,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 055eb5e816176ce4c8bc0233555e5898, type: 3}
+--- !u!114 &6397020034966430047 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8093706217912671102, guid: 055eb5e816176ce4c8bc0233555e5898, type: 3}
+  m_PrefabInstance: {fileID: 6397020034966430046}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cb345c6b98fd1a439c9a7f082aad62d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7641654414228616012
 PrefabInstance:
   m_ObjectHideFlags: 0

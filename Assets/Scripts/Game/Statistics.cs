@@ -7,6 +7,8 @@ public static class Statistics
     public static int _coinsCollected;
     public static int _enemiesKilled;
     public static int _livesUsed;
+    public static float _levelPercent;
+
 
 
     public static void RefreshStats()
