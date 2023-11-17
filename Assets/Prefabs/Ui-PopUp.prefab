@@ -88,6 +88,9 @@ GameObject:
   - component: {fileID: 859204722668968482}
   - component: {fileID: 7589874272197097999}
   - component: {fileID: 7150981787434952387}
+  - component: {fileID: 1374075162}
+  - component: {fileID: 1490553489}
+  - component: {fileID: 6117231986148109502}
   m_Layer: 5
   m_Name: Ui-PopUp
   m_TagString: Untagged
@@ -181,6 +184,50 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &1374075162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2885832107270248332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fff46f281600e241ad18b558dca7a45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _levelCoins: {fileID: 1496683260893310753}
+  _levelMonsters: {fileID: 13036344440019738}
+--- !u!114 &1490553489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2885832107270248332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d12aeca5b40a60e419d8224f408ba294, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _totalMosters: {fileID: 0}
+  _totalCoins: {fileID: 0}
+  _totalLives: {fileID: 0}
+--- !u!114 &6117231986148109502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2885832107270248332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d12aeca5b40a60e419d8224f408ba294, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _totalMosters: {fileID: 0}
+  _totalCoins: {fileID: 0}
+  _totalLives: {fileID: 0}
 --- !u!1 &4196117204329106380
 GameObject:
   m_ObjectHideFlags: 0
@@ -463,7 +510,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 199
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -866,7 +913,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 199
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1175,7 +1222,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 221885f3c7b561640b9d262ca4154261, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b4ea0d5333ab30f4481fbf1f9add88cd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

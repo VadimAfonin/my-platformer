@@ -221,7 +221,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Press 'F' to move
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -761,7 +761,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Press 'E' to move
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -769,7 +769,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0, g: 0.047595024, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -916,6 +916,7 @@ GameObject:
   - component: {fileID: 2056905198004578189}
   - component: {fileID: 2056905198004578190}
   - component: {fileID: 2056905198004578191}
+  - component: {fileID: 170193872}
   m_Layer: 5
   m_Name: GameCanvas
   m_TagString: Untagged
@@ -1008,6 +1009,20 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &170193872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056905198004578184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fff46f281600e241ad18b558dca7a45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _levelCoins: {fileID: 2056905199126054510}
+  _levelMonsters: {fileID: 5899348638412632041}
 --- !u!1 &2056905198014474098
 GameObject:
   m_ObjectHideFlags: 0
@@ -1020,7 +1035,7 @@ GameObject:
   - component: {fileID: 2056905198014474103}
   - component: {fileID: 2056905198014474096}
   m_Layer: 5
-  m_Name: Timer_Image
+  m_Name: Coins_Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1074,7 +1089,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 221885f3c7b561640b9d262ca4154261, type: 3}
+  m_Sprite: {fileID: 2085170888, guid: ec1d1dec2d4351f4bbf51692908b0698, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1248,7 +1263,7 @@ GameObject:
   - component: {fileID: 2056905199126054509}
   - component: {fileID: 2056905199126054510}
   m_Layer: 5
-  m_Name: TimerText
+  m_Name: CoinsText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1304,8 +1319,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1336,8 +1351,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1465,6 +1480,7 @@ GameObject:
   - component: {fileID: 2056905199205256373}
   - component: {fileID: 2056905199205256379}
   - component: {fileID: 2056905199205256372}
+  - component: {fileID: 4468874333121275852}
   m_Layer: 5
   m_Name: ProgressImage
   m_TagString: Untagged
@@ -1530,6 +1546,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &4468874333121275852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056905199205256374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab3c26068cb3414bb8ea1dfa55846bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinsQuantity: 0
 --- !u!1 &2056905199271433023
 GameObject:
   m_ObjectHideFlags: 0
@@ -1542,7 +1571,7 @@ GameObject:
   - component: {fileID: 2056905199271433020}
   - component: {fileID: 2056905199271433021}
   m_Layer: 5
-  m_Name: Timer
+  m_Name: Coins
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1620,7 +1649,7 @@ GameObject:
   - component: {fileID: 2056905199300407997}
   - component: {fileID: 2056905199300407998}
   m_Layer: 5
-  m_Name: BottomPanel
+  m_Name: Top_Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2371,6 +2400,9 @@ GameObject:
   - component: {fileID: 6751037470582128646}
   - component: {fileID: 7128680197997623794}
   - component: {fileID: 4534327838133856910}
+  - component: {fileID: 121343897}
+  - component: {fileID: 1701107592}
+  - component: {fileID: 7623530907324033536}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -2444,6 +2476,54 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &121343897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8800168080695037141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09ffe1e5acec57b43b4503b89319897f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _levelCoinsText: {fileID: 4006328573667880898}
+  _totalCoinsText: {fileID: 8448004599674595171}
+  _levelMonsterText: {fileID: 5687612976785952393}
+  _totalMonsterText: {fileID: 965095179591807992}
+--- !u!114 &1701107592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8800168080695037141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09ffe1e5acec57b43b4503b89319897f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _levelCoinsText: {fileID: 2056905199126054510}
+  _totalCoinsText: {fileID: 8448004599674595171}
+  _levelMonsterText: {fileID: 5687612976785952393}
+  _totalMonsterText: {fileID: 965095179591807992}
+--- !u!114 &7623530907324033536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8800168080695037141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09ffe1e5acec57b43b4503b89319897f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _levelCoinsText: {fileID: 2056905199126054510}
+  _totalCoinsText: {fileID: 8448004599674595171}
+  _levelMonsterText: {fileID: 5687612976785952393}
+  _totalMonsterText: {fileID: 965095179591807992}
 --- !u!1 &9108673873992353471
 GameObject:
   m_ObjectHideFlags: 0

@@ -71,7 +71,8 @@ public class Health : MonoBehaviour
         yield return new WaitForSecondsRealtime(2.0f);
 
         _GameCanvas.SetActive(false);
-        Time.timeScale = 0.1f;
+        //Time.timeScale = 0.1f;
         _deathCanvas.SetActive(true);
+        Statistics._livesUsed++;
     }    
 }

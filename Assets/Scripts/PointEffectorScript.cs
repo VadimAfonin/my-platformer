@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class PointEffectorScript : MonoBehaviour
 {
-    [SerializeField] private GameObject _explosionCenter;    
+    [SerializeField] private GameObject _explosionCenter;
 
-
+   
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.name.Equals("Player"))
