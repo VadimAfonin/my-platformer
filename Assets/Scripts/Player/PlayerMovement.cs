@@ -14,15 +14,14 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D rb;
     private Animator _anim;
-    private SpriteRenderer _sprite;    
 
     private bool isGrounded = false;   
+    public int lastDirection;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         _anim = GetComponent<Animator>();
-        _sprite = GetComponent<SpriteRenderer>();
     }    
 
     public void Move(float direction, bool isSpacePressed)
@@ -50,7 +49,7 @@ public class PlayerMovement : MonoBehaviour
     private void Movement(float direction)
     {
         rb.velocity = new Vector2(direction * _playerSpeed, rb.velocity.y);
-        _anim.SetFloat("Velocity", direction * _playerSpeed);
+        //_anim.SetFloat("Velocity", direction * _playerSpeed);
     }    
 
     private void FixedUpdate()
@@ -63,20 +62,23 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Mathf.Abs(rb.velocity.x) < 0.1f)
         {
-            _anim.SetFloat("Velocity", 0);
+            _anim.SetBool("isRunning", false);
         }
         if (isGrounded)
         {
             _anim.SetBool("isJumping", false);
         }
         if (Input.GetKey(KeyCode.A))
-        {        
-            _anim.SetFloat("Velocity", -1f);
+        {
+            _anim.SetBool("isRunning", true);
+            lastDirection = -1;
+            _playerColliderTransform.localScale = new Vector2(lastDirection, 1);
         }
         if (Input.GetKey(KeyCode.D))
         {
-            _sprite.flipX = false;           
-            _anim.SetFloat("Velocity", 1);
-        }       
+            _anim.SetBool("isRunning", true);
+            lastDirection = 1;
+            _playerColliderTransform.localScale = new Vector2(lastDirection, 1);
+        }
     }
 }

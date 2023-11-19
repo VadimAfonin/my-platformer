@@ -4,7 +4,6 @@ using UnityEngine;
 public class PlayerInput : MonoBehaviour
 {
     private PlayerMovement playerMovement;
-    private Shooter shooter;
     private Animator anim;
 
     private float horizontalDirection;
@@ -12,7 +11,6 @@ public class PlayerInput : MonoBehaviour
     {
         playerMovement = GetComponent<PlayerMovement>();
         anim = GetComponent<Animator>();
-        shooter = GetComponent<Shooter>();
     }
 
     private void Update()

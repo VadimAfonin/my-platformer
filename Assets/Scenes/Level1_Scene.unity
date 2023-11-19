@@ -218,7 +218,7 @@ GameObject:
   - component: {fileID: 10234650}
   - component: {fileID: 10234651}
   - component: {fileID: 10234652}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Tileset_3
   m_TagString: DeathTrigger
   m_Icon: {fileID: 0}
@@ -1118,9 +1118,10 @@ GameObject:
   m_Component:
   - component: {fileID: 74186696}
   - component: {fileID: 74186697}
+  - component: {fileID: 74186698}
   m_Layer: 0
   m_Name: TX Village Props_150
-  m_TagString: Untagged
+  m_TagString: Damageable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1192,6 +1193,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &74186698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74186695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15ff1327e24898c40bb33c089ed7a3ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxHealth: 1000
+  _playerHealthImage: {fileID: 0}
+  _deathCanvas: {fileID: 0}
+  _GameCanvas: {fileID: 0}
+  currentHealth: 0
 --- !u!1 &82147955
 GameObject:
   m_ObjectHideFlags: 0
@@ -1481,9 +1499,10 @@ GameObject:
   m_Component:
   - component: {fileID: 102187045}
   - component: {fileID: 102187046}
+  - component: {fileID: 102187047}
   m_Layer: 0
   m_Name: TX Village Props_163 (2)
-  m_TagString: Untagged
+  m_TagString: Damageable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1555,6 +1574,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &102187047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102187044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15ff1327e24898c40bb33c089ed7a3ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxHealth: 1000
+  _playerHealthImage: {fileID: 0}
+  _deathCanvas: {fileID: 0}
+  _GameCanvas: {fileID: 0}
+  currentHealth: 0
 --- !u!1 &103080199
 GameObject:
   m_ObjectHideFlags: 0
@@ -1850,7 +1886,7 @@ GameObject:
   - component: {fileID: 131011409}
   - component: {fileID: 131011410}
   - component: {fileID: 131011411}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Tileset_21
   m_TagString: DeathTrigger
   m_Icon: {fileID: 0}
@@ -2573,7 +2609,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 210967849}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34efa42260fcf7244bdf55904dab8c22, type: 3}
+  m_Script: {fileID: 11500000, guid: 37cc54ea857190f4b8b63f8f9fc2e9e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _damage: 25
@@ -2756,7 +2792,7 @@ GameObject:
   - component: {fileID: 219687247}
   - component: {fileID: 219687248}
   - component: {fileID: 219687249}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Tileset_4 (2)
   m_TagString: DeathTrigger
   m_Icon: {fileID: 0}
@@ -3677,7 +3713,7 @@ GameObject:
   - component: {fileID: 275702218}
   - component: {fileID: 275702219}
   - component: {fileID: 275702220}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Tileset_4
   m_TagString: DeathTrigger
   m_Icon: {fileID: 0}
@@ -4569,7 +4605,7 @@ GameObject:
   - component: {fileID: 315323372}
   - component: {fileID: 315323373}
   - component: {fileID: 315323374}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Tileset_14 (1)
   m_TagString: DeathTrigger
   m_Icon: {fileID: 0}
@@ -4679,9 +4715,10 @@ GameObject:
   m_Component:
   - component: {fileID: 333346800}
   - component: {fileID: 333346801}
+  - component: {fileID: 333346802}
   m_Layer: 0
   m_Name: TX Village Props_151 (2)
-  m_TagString: Untagged
+  m_TagString: Damageable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4753,6 +4790,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &333346802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333346799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15ff1327e24898c40bb33c089ed7a3ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxHealth: 1000
+  _playerHealthImage: {fileID: 0}
+  _deathCanvas: {fileID: 0}
+  _GameCanvas: {fileID: 0}
+  currentHealth: 0
 --- !u!114 &338594291 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 13036344440019738, guid: 055eb5e816176ce4c8bc0233555e5898, type: 3}
@@ -5210,7 +5264,7 @@ GameObject:
   - component: {fileID: 382827785}
   - component: {fileID: 382827786}
   - component: {fileID: 382827787}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Tileset_14 (3)
   m_TagString: DeathTrigger
   m_Icon: {fileID: 0}
@@ -5405,7 +5459,7 @@ GameObject:
   - component: {fileID: 384957150}
   - component: {fileID: 384957151}
   - component: {fileID: 384957152}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Tileset_5 (2)
   m_TagString: DeathTrigger
   m_Icon: {fileID: 0}
@@ -9485,9 +9539,10 @@ GameObject:
   - component: {fileID: 604750402}
   - component: {fileID: 604750401}
   - component: {fileID: 604750400}
+  - component: {fileID: 604750405}
   m_Layer: 0
   m_Name: TX Village Props_153
-  m_TagString: Untagged
+  m_TagString: Damageable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9620,6 +9675,23 @@ Transform:
   m_Father: {fileID: 207010517}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &604750405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604750399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15ff1327e24898c40bb33c089ed7a3ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxHealth: 1000
+  _playerHealthImage: {fileID: 0}
+  _deathCanvas: {fileID: 0}
+  _GameCanvas: {fileID: 0}
+  currentHealth: 0
 --- !u!1 &616252946
 GameObject:
   m_ObjectHideFlags: 0
@@ -10004,7 +10076,7 @@ GameObject:
   - component: {fileID: 627804394}
   - component: {fileID: 627804395}
   - component: {fileID: 627804396}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Tileset_23
   m_TagString: DeathTrigger
   m_Icon: {fileID: 0}
@@ -10809,7 +10881,7 @@ GameObject:
   - component: {fileID: 697670052}
   - component: {fileID: 697670053}
   - component: {fileID: 697670054}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Tileset_12
   m_TagString: DeathTrigger
   m_Icon: {fileID: 0}
@@ -11050,9 +11122,10 @@ GameObject:
   m_Component:
   - component: {fileID: 700349521}
   - component: {fileID: 700349522}
+  - component: {fileID: 700349523}
   m_Layer: 0
   m_Name: TX Village Props_163 (1)
-  m_TagString: Untagged
+  m_TagString: Damageable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11124,6 +11197,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &700349523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700349520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15ff1327e24898c40bb33c089ed7a3ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxHealth: 1000
+  _playerHealthImage: {fileID: 0}
+  _deathCanvas: {fileID: 0}
+  _GameCanvas: {fileID: 0}
+  currentHealth: 0
 --- !u!1 &707011055
 GameObject:
   m_ObjectHideFlags: 0
@@ -11283,6 +11373,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8338004577528779008, guid: 25a33b84a2da3674b97da280a5aa82f1, type: 3}
+      propertyPath: _gameCanvas
+      value: 
+      objectReference: {fileID: 170193867}
+    - target: {fileID: 8338004577528779008, guid: 25a33b84a2da3674b97da280a5aa82f1, type: 3}
+      propertyPath: _youLooseScreen
+      value: 
+      objectReference: {fileID: 124305700}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25a33b84a2da3674b97da280a5aa82f1, type: 3}
 --- !u!4 &725912973 stripped
@@ -11371,7 +11469,7 @@ GameObject:
   - component: {fileID: 730707088}
   - component: {fileID: 730707089}
   - component: {fileID: 730707090}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Tileset_3 (1)
   m_TagString: DeathTrigger
   m_Icon: {fileID: 0}
@@ -11481,9 +11579,10 @@ GameObject:
   m_Component:
   - component: {fileID: 743033538}
   - component: {fileID: 743033539}
+  - component: {fileID: 743033540}
   m_Layer: 0
   m_Name: TX Village Props_151 (1)
-  m_TagString: Untagged
+  m_TagString: Damageable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11555,6 +11654,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &743033540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743033537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15ff1327e24898c40bb33c089ed7a3ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxHealth: 1000
+  _playerHealthImage: {fileID: 0}
+  _deathCanvas: {fileID: 0}
+  _GameCanvas: {fileID: 0}
+  currentHealth: 0
 --- !u!1 &745444939
 GameObject:
   m_ObjectHideFlags: 0
@@ -11566,7 +11682,7 @@ GameObject:
   - component: {fileID: 745444940}
   - component: {fileID: 745444941}
   - component: {fileID: 745444942}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Tileset_21 (1)
   m_TagString: DeathTrigger
   m_Icon: {fileID: 0}
@@ -11788,7 +11904,7 @@ GameObject:
   - component: {fileID: 754911124}
   - component: {fileID: 754911125}
   - component: {fileID: 754911126}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Tileset_4 (1)
   m_TagString: DeathTrigger
   m_Icon: {fileID: 0}
@@ -12167,7 +12283,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 784619687}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34efa42260fcf7244bdf55904dab8c22, type: 3}
+  m_Script: {fileID: 11500000, guid: 37cc54ea857190f4b8b63f8f9fc2e9e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _damage: 25
@@ -12488,7 +12604,7 @@ GameObject:
   - component: {fileID: 805345095}
   - component: {fileID: 805345096}
   - component: {fileID: 805345097}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Tileset_13 (2)
   m_TagString: DeathTrigger
   m_Icon: {fileID: 0}
@@ -13246,7 +13362,7 @@ GameObject:
   - component: {fileID: 831143152}
   - component: {fileID: 831143153}
   - component: {fileID: 831143154}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Tileset_22 (1)
   m_TagString: DeathTrigger
   m_Icon: {fileID: 0}
@@ -13441,7 +13557,7 @@ GameObject:
   - component: {fileID: 854758584}
   - component: {fileID: 854758585}
   - component: {fileID: 854758586}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Tileset_23 (2)
   m_TagString: DeathTrigger
   m_Icon: {fileID: 0}
@@ -14670,7 +14786,7 @@ GameObject:
   - component: {fileID: 955581160}
   - component: {fileID: 955581161}
   - component: {fileID: 955581162}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Tileset_13
   m_TagString: DeathTrigger
   m_Icon: {fileID: 0}
@@ -15227,7 +15343,7 @@ GameObject:
   - component: {fileID: 1030123991}
   - component: {fileID: 1030123992}
   - component: {fileID: 1030123993}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Tileset_12 (1)
   m_TagString: DeathTrigger
   m_Icon: {fileID: 0}
@@ -15342,9 +15458,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1037195917}
   - component: {fileID: 1037195918}
+  - component: {fileID: 1037195919}
   m_Layer: 0
   m_Name: TX Village Props_151
-  m_TagString: Untagged
+  m_TagString: Damageable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15416,6 +15533,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1037195919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037195916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15ff1327e24898c40bb33c089ed7a3ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxHealth: 1000
+  _playerHealthImage: {fileID: 0}
+  _deathCanvas: {fileID: 0}
+  _GameCanvas: {fileID: 0}
+  currentHealth: 0
 --- !u!1 &1037823380
 GameObject:
   m_ObjectHideFlags: 0
@@ -15658,7 +15792,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1038133257}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34efa42260fcf7244bdf55904dab8c22, type: 3}
+  m_Script: {fileID: 11500000, guid: 37cc54ea857190f4b8b63f8f9fc2e9e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _damage: 25
@@ -16355,7 +16489,7 @@ GameObject:
   - component: {fileID: 1092675307}
   - component: {fileID: 1092675308}
   - component: {fileID: 1092675309}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Tileset_14
   m_TagString: DeathTrigger
   m_Icon: {fileID: 0}
@@ -16982,9 +17116,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1118241603}
   - component: {fileID: 1118241604}
+  - component: {fileID: 1118241605}
   m_Layer: 0
   m_Name: TX Village Props_162
-  m_TagString: Untagged
+  m_TagString: Damageable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17056,6 +17191,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1118241605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118241602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15ff1327e24898c40bb33c089ed7a3ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxHealth: 1000
+  _playerHealthImage: {fileID: 0}
+  _deathCanvas: {fileID: 0}
+  _GameCanvas: {fileID: 0}
+  currentHealth: 0
 --- !u!1 &1119053608
 GameObject:
   m_ObjectHideFlags: 0
@@ -18034,7 +18186,7 @@ GameObject:
   - component: {fileID: 1172777676}
   - component: {fileID: 1172777677}
   - component: {fileID: 1172777678}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Tileset_5 (3)
   m_TagString: DeathTrigger
   m_Icon: {fileID: 0}
@@ -18329,7 +18481,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1179293082}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34efa42260fcf7244bdf55904dab8c22, type: 3}
+  m_Script: {fileID: 11500000, guid: 37cc54ea857190f4b8b63f8f9fc2e9e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _damage: 25
@@ -18840,7 +18992,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1195558125}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34efa42260fcf7244bdf55904dab8c22, type: 3}
+  m_Script: {fileID: 11500000, guid: 37cc54ea857190f4b8b63f8f9fc2e9e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _damage: 25
@@ -19520,7 +19672,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1246231829}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34efa42260fcf7244bdf55904dab8c22, type: 3}
+  m_Script: {fileID: 11500000, guid: 37cc54ea857190f4b8b63f8f9fc2e9e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _damage: 25
@@ -19861,7 +20013,7 @@ GameObject:
   - component: {fileID: 1280138615}
   - component: {fileID: 1280138616}
   - component: {fileID: 1280138617}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Tileset_14 (2)
   m_TagString: DeathTrigger
   m_Icon: {fileID: 0}
@@ -20056,7 +20208,7 @@ GameObject:
   - component: {fileID: 1303759295}
   - component: {fileID: 1303759296}
   - component: {fileID: 1303759297}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Tileset_23 (3)
   m_TagString: DeathTrigger
   m_Icon: {fileID: 0}
@@ -20335,7 +20487,7 @@ GameObject:
   - component: {fileID: 1365857135}
   - component: {fileID: 1365857136}
   - component: {fileID: 1365857137}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Tileset_22 (2)
   m_TagString: DeathTrigger
   m_Icon: {fileID: 0}
@@ -21126,7 +21278,7 @@ GameObject:
   - component: {fileID: 1406682408}
   - component: {fileID: 1406682409}
   - component: {fileID: 1406682410}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Tileset_22
   m_TagString: DeathTrigger
   m_Icon: {fileID: 0}
@@ -21661,7 +21813,7 @@ GameObject:
   - component: {fileID: 1446992467}
   - component: {fileID: 1446992468}
   - component: {fileID: 1446992469}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Tileset_5
   m_TagString: DeathTrigger
   m_Icon: {fileID: 0}
@@ -22869,7 +23021,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _gameCanvas: {fileID: 170193867}
   _ui_popup: {fileID: 1374075157}
-  _img: {fileID: 0}
   _starsPicController: {fileID: 6397020034966430047}
 --- !u!61 &1535602539
 BoxCollider2D:
@@ -23407,7 +23558,7 @@ GameObject:
   - component: {fileID: 1575699393}
   - component: {fileID: 1575699394}
   - component: {fileID: 1575699395}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Tileset_13 (1)
   m_TagString: DeathTrigger
   m_Icon: {fileID: 0}
@@ -24725,9 +24876,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1684705707}
   - component: {fileID: 1684705708}
+  - component: {fileID: 1684705709}
   m_Layer: 0
   m_Name: TX Village Props_164
-  m_TagString: Untagged
+  m_TagString: Damageable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24799,6 +24951,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1684705709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684705706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15ff1327e24898c40bb33c089ed7a3ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxHealth: 1000
+  _playerHealthImage: {fileID: 0}
+  _deathCanvas: {fileID: 0}
+  _GameCanvas: {fileID: 0}
+  currentHealth: 0
 --- !u!1 &1700947199
 GameObject:
   m_ObjectHideFlags: 0
@@ -24810,7 +24979,7 @@ GameObject:
   - component: {fileID: 1700947200}
   - component: {fileID: 1700947201}
   - component: {fileID: 1700947202}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Tileset_5 (1)
   m_TagString: DeathTrigger
   m_Icon: {fileID: 0}
@@ -24920,9 +25089,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1701067646}
   - component: {fileID: 1701067647}
+  - component: {fileID: 1701067648}
   m_Layer: 0
   m_Name: TX Village Props_152
-  m_TagString: Untagged
+  m_TagString: Damageable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24994,6 +25164,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1701067648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1701067645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15ff1327e24898c40bb33c089ed7a3ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxHealth: 1000
+  _playerHealthImage: {fileID: 0}
+  _deathCanvas: {fileID: 0}
+  _GameCanvas: {fileID: 0}
+  currentHealth: 0
 --- !u!1 &1709848135
 GameObject:
   m_ObjectHideFlags: 0
@@ -25804,7 +25991,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1805563068}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34efa42260fcf7244bdf55904dab8c22, type: 3}
+  m_Script: {fileID: 11500000, guid: 37cc54ea857190f4b8b63f8f9fc2e9e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _damage: 25
@@ -27021,9 +27208,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1919957864}
   - component: {fileID: 1919957865}
+  - component: {fileID: 1919957866}
   m_Layer: 0
   m_Name: TX Village Props_163
-  m_TagString: Untagged
+  m_TagString: Damageable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27095,6 +27283,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1919957866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919957863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15ff1327e24898c40bb33c089ed7a3ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxHealth: 1000
+  _playerHealthImage: {fileID: 0}
+  _deathCanvas: {fileID: 0}
+  _GameCanvas: {fileID: 0}
+  currentHealth: 0
 --- !u!1 &1920390814
 GameObject:
   m_ObjectHideFlags: 0
@@ -29268,7 +29473,7 @@ GameObject:
   - component: {fileID: 2059842880}
   - component: {fileID: 2059842881}
   - component: {fileID: 2059842882}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Tileset_23 (1)
   m_TagString: DeathTrigger
   m_Icon: {fileID: 0}
@@ -30067,7 +30272,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2107346022}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34efa42260fcf7244bdf55904dab8c22, type: 3}
+  m_Script: {fileID: 11500000, guid: 37cc54ea857190f4b8b63f8f9fc2e9e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _damage: 25
@@ -30215,9 +30420,10 @@ GameObject:
   - component: {fileID: 2114809173}
   - component: {fileID: 2114809172}
   - component: {fileID: 2114809171}
+  - component: {fileID: 2114809176}
   m_Layer: 0
   m_Name: TX Village Props_153 (1)
-  m_TagString: Untagged
+  m_TagString: Damageable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30350,6 +30556,23 @@ Transform:
   m_Father: {fileID: 207010517}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2114809176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2114809170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15ff1327e24898c40bb33c089ed7a3ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxHealth: 1000
+  _playerHealthImage: {fileID: 0}
+  _deathCanvas: {fileID: 0}
+  _GameCanvas: {fileID: 0}
+  currentHealth: 0
 --- !u!1 &2119860832
 GameObject:
   m_ObjectHideFlags: 0
@@ -30914,7 +31137,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2146473022}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34efa42260fcf7244bdf55904dab8c22, type: 3}
+  m_Script: {fileID: 11500000, guid: 37cc54ea857190f4b8b63f8f9fc2e9e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _damage: 25

@@ -15,7 +15,7 @@ public class Demon : MonoBehaviour
         _anim = GetComponent<Animator>();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.name.Equals("Player"))
         {
@@ -25,7 +25,7 @@ public class Demon : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnCollisionExit2D(Collision2D collision)
     {
         rend.flipX = false;
         _anim.SetBool("youVisible", false);

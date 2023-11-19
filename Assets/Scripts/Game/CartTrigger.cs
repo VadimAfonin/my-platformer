@@ -24,7 +24,7 @@ public class CartTrigger : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            _body.AddForce(Vector2.right * 3, ForceMode2D.Impulse);
+            _body.AddForce(Vector2.right * 5, ForceMode2D.Impulse);
             _tipText.SetActive(false);
             Destroy(_body.gameObject, 4);
         }

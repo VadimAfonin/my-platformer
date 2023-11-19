@@ -12,11 +12,11 @@ GameObject:
   - component: {fileID: 970613382896088901}
   - component: {fileID: 970613382896088900}
   - component: {fileID: -4056786957985094636}
-  - component: {fileID: -4630549215941653076}
   - component: {fileID: -549658385234438731}
-  m_Layer: 0
+  - component: {fileID: -100112117605095322}
+  m_Layer: 9
   m_Name: Jinn_Bullet
-  m_TagString: Untagged
+  m_TagString: Jinn_Bullet
   m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,19 +130,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 2
---- !u!114 &-4630549215941653076
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 970613382896088899}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34efa42260fcf7244bdf55904dab8c22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _damage: 25
 --- !u!58 &-549658385234438731
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -159,3 +146,16 @@ CircleCollider2D:
   m_Offset: {x: 0.031106686, y: 0}
   serializedVersion: 2
   m_Radius: 0.10293201
+--- !u!114 &-100112117605095322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970613382896088899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37cc54ea857190f4b8b63f8f9fc2e9e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _damage: 25

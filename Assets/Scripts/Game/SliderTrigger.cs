@@ -21,6 +21,13 @@ public class SliderTrigger : MonoBehaviour
         }
     }
 
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.name.Equals("Player"))
+        {
+            _tipText.SetActive(false);
+        }
+    }
 
     void Update()
     {
